@@ -15,7 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 class Queue {
 
-  getUnderlyingList(item) {
+  getUnderlyingList() {
    return this.item[0];
   }
 
