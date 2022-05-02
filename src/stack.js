@@ -34,6 +34,14 @@ class Stack {
     }
    return this.items[this.items.length - 1];
   }
+
+  getSize() {
+    return this.items.length;
+  }
+
+  isEmpty() {
+    return this.getSize() === 0;
+  }
 }
 
 module.exports = {
